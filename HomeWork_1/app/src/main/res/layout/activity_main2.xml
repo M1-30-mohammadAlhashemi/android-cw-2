@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cxc"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:autoLink="all"
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:autoSizeTextType="uniform"
+        android:gravity="center_horizontal"
+        android:text="Hello"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp" />
+
+    <TextView
+        android:autoLink="phone"
+        android:id="@+id/num"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:autoSizeTextType="uniform"
+        android:gravity="center_horizontal"
+        android:text="Hello"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/emil"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:autoLink="email"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="Hello"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp" />
+    <TextView
+
+        android:id="@+id/addres"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:autoSizeTextType="uniform"
+        android:gravity="center_horizontal"
+        android:text="Hello"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp" />
+
+
+
+
+</LinearLayout>
